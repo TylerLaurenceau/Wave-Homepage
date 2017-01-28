@@ -1,0 +1,45 @@
+body{
+  font-family: Verdana;
+}
+
+ul{
+  padding-left: 5px;
+}
+
+.navbar{
+  border: grey dotted 1px;
+  background:grey;
+  padding-left: -50px;
+  height:30px;
+  position: relative;
+}
+
+.navbar li{
+  display: inline-block;
+}
+
+.navbar form{
+  margin-bottom: 0px;
+}
+
+.nav-wave{
+  float:left;
+  width: 1025px;
+  font-family: Brush Script MT;
+  font-size: 30px;
+  color:white;
+  position: absolute;
+  top:-2px;
+  padding-left: 10px;
+
+}
+
+
+.searchbar{
+  color: lightgrey;
+  padding-right: 5px;
+  position: absolute;
+  left: 1050px;
+  bottom:6px;
+  font-size: 12px;
+}
