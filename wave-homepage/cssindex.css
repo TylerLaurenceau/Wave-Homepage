@@ -1,14 +1,57 @@
 body{
   font-family: Verdana;
-}
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin: auto;
+  }
 
 ul{
   padding-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+a{
+  color:cyan;
+  text-decoration: none;
+}
+
+.head-w{
+  font-size: 80px;
+  font-family: Brush Script MT;
+
+}
+
+.w{
+  font-family: Brush Script MT;
+  font-size: 25px;
+}
+
+.main-w{
+  font-family: Brush Script MT;
+  font-size: 58px;
+}
+
+.wave{
+  color:white;
+  font-family: Brush Script MT;
+  font-size: 70px;
+}
+
+.medium-wave{
+  font-size: 30;
+  font-family: Brush Script MT;
+}
+
+.smaller-wave{
+  font-size: 12px;
+  font-family: Brush Script MT;
 }
 
 .navbar{
-  border: grey dotted 1px;
-  background:grey;
+  border: #D2D4B8 dotted 1px;
+  background:#D2D4B8;
   padding-left: -50px;
   height:30px;
   position: relative;
@@ -29,17 +72,116 @@ ul{
   font-size: 30px;
   color:white;
   position: absolute;
-  top:-2px;
+  top:-3px;
   padding-left: 10px;
 
 }
 
-
 .searchbar{
-  color: lightgrey;
+  color: white;
   padding-right: 5px;
   position: absolute;
   left: 1050px;
   bottom:6px;
   font-size: 12px;
+}
+
+.main{
+  background-image: url(dreams-reality-girl-dock.jpg);
+  position: relative;
+	margin-bottom: 0px;
+	background-size: cover;
+	height: 678px;
+}
+
+.main-text-1{
+  position: absolute;
+  top: 72px;
+  left: 465px;
+  font-size: 40px;
+}
+
+.main-text-2{
+  position: absolute;
+  top: 332px;
+  left: 370px;
+  font-size: 40px;
+}
+
+.enter{
+  position: absolute;
+  top: 300px;
+  left: 640px;
+}
+
+.enter a{
+  text-decoration: none;
+  font-family: Helvetica;
+  color:white;
+}
+
+.outter-enter{
+  border:solid black 1px;
+position: absolute;
+width: 80px;
+height: 27px;
+top: 294px;
+left: 626px;
+border-radius: 5px;
+background: linear-gradient(to bottom, #b3eced 0%,#29e5dc 54%,#29e5dc 73%,#bceeee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.login{
+  position: absolute;
+  top: 175;
+  left: 580;
+}
+
+.register{
+  position: absolute;
+  top: 400;
+  left: 540;
+}
+
+.forgot-user{
+  position: absolute;
+  top: 450px;
+  left: 340px;
+}
+
+.footer{
+    background: black;
+    position: absolute;
+    top: 675;
+    left: 0px;
+    height: 20px;
+    padding-right: 0px;
+    width:1280px;
+    font-size: 12px;
+
+}
+
+.footer li{
+  display: inline-block;
+  margin-right: 0px;
+  background: black;
+  padding-left:20px;
+  border:black solid 1px;
+  border-radius: 0px;
+  margin-left: 0px;
+  }
+
+  .footer a{
+    text-decoration: none;
+  }
+
+.footer-special{
+  float:right;
+  height: 0px;
+  font-size: 9px;
+  margin-right: 3px;
+  padding-right: 5px;
+}
+
+.about{
+  margin-left: 0px;
 }
