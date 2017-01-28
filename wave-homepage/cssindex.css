@@ -45,7 +45,7 @@ a{
 }
 
 .smaller-wave{
-  font-size: 12px;
+  font-size: 15px;
   font-family: Brush Script MT;
 }
 
@@ -79,7 +79,7 @@ a{
 
 .searchbar{
   color: white;
-  padding-right: 5px;
+  padding-right: 2px;
   position: absolute;
   left: 1050px;
   bottom:6px;
@@ -111,13 +111,14 @@ a{
 .enter{
   position: absolute;
   top: 300px;
-  left: 640px;
+  left: 648px;
 }
 
 .enter a{
   text-decoration: none;
   font-family: Helvetica;
   color:black;
+  text-shadow: 0px 0px 0px 0px;
 }
 
 .outter-enter{
@@ -128,7 +129,7 @@ height: 27px;
 top: 294px;
 left: 626px;
 border-radius: 5px;
-background: white
+background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .login{
   position: absolute;
